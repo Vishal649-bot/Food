@@ -1,0 +1,48 @@
+.nav-container{
+    max-width: 1536px;
+    height: 241px;
+    position: relative;
+    background-color: rgb(40, 38, 35);
+    margin: 0px;
+    padding: 69px 10px;
+}
+.nav-foody{
+    max-width: 1200px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    
+    /* background-color: rgb(71, 71, 33); */
+    /* position: absolute; */
+    /* top: 56px; */
+    /* right: 150px; */
+}
+.nav-foody span{
+    color: red;
+}
+.nav-foody h1{
+    color: white;
+}
+.nav-btn{
+    /* display: inline-block; */
+    margin: 215px auto;
+    width: fit-content;
+}
+.nav-btn button{
+    background-color: red;
+    border: none;
+    margin-left: 10px;
+    
+    padding: 6px 12px;
+    font-size: 20px;
+    color: white;
+    border-radius: 5px;
+
+}
+
+.nav-btn button:hover{
+    cursor: pointer;
+    
+}
